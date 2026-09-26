@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portafolio personal de Fabian Vasquez, estudiante de Desarrollo de Software orientado al backend.">
+  <meta name="theme-color" content="#0b1220">
+  <title>Fabian Vasquez | Desarrollador Backend</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <header class="site-header" id="inicio">
+    <nav class="nav container" aria-label="Navegación principal">
+      <a class="logo" href="#inicio" aria-label="Ir al inicio">FV<span>.</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-menu" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="main-menu">
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto" class="nav-cta">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" aria-labelledby="hero-title">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">DESARROLLO DE SOFTWARE · BACKEND</p>
+        <h1 id="hero-title">Hola, soy <span>Fabian Vasquez</span>.</h1>
+        <p class="hero-text">Estudiante de Desarrollo de Software con formación técnica en Sistemas, enfocado en construir soluciones funcionales, claras y pensadas para mejorar la experiencia del usuario.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#proyectos">Ver proyectos</a>
+          <a class="button secondary" href="#contacto">Hablemos</a>
+        </div>
+        <div class="quick-facts" aria-label="Datos rápidos">
+          <span>Python</span><span>Java</span><span>JavaScript</span><span>Git</span>
+        </div>
+      </div>
+      <div class="hero-card reveal" aria-label="Presentación de Fabian Vasquez">
+        <div class="profile-orbit"></div>
+        <div class="avatar"><img src="assets/fabian-profile.webp" alt="Fotografía de Fabian Steven Vasquez Calderon"></div>
+        <div class="status"><span></span> Disponible para aprender y colaborar</div>
+        <div class="hero-card-info">
+          <strong>Fabian Vasquez</strong>
+          <span>Estudiante · Backend</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="sobre-mi" aria-labelledby="about-title">
+      <div class="container two-column">
+        <div class="section-heading reveal">
+          <p class="eyebrow">SOBRE MÍ</p>
+          <h2 id="about-title">Aprender, construir y seguir mejorando.</h2>
+        </div>
+        <div class="about-copy reveal">
+          <p>Actualmente me estoy formando en Desarrollo de Software y fortaleciendo mis bases de programación, bases de datos y desarrollo web.</p>
+          <p>Me considero una persona adaptable, empática y con buena disposición para trabajar en equipo. Me interesa especialmente el desarrollo backend y crear soluciones que sean útiles para las personas.</p>
+          <div class="mini-stats">
+            <div><strong>01</strong><span>Enfoque<br>backend</span></div>
+            <div><strong>02</strong><span>Aprendizaje<br>continuo</span></div>
+            <div><strong>03</strong><span>Trabajo<br>en equipo</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="habilidades" aria-labelledby="skills-title">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <p class="eyebrow">HABILIDADES</p>
+          <h2 id="skills-title">Herramientas con las que estoy construyendo mi camino.</h2>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card reveal"><span class="skill-number">01</span><h3>Python</h3><p>Programación y desarrollo de soluciones orientadas al backend.</p></article>
+          <article class="skill-card reveal"><span class="skill-number">02</span><h3>Java</h3><p>Fundamentos de programación y construcción de aplicaciones.</p></article>
+          <article class="skill-card reveal"><span class="skill-number">03</span><h3>JavaScript</h3><p>Interactividad y lógica para proyectos web.</p></article>
+          <article class="skill-card reveal"><span class="skill-number">04</span><h3>HTML & CSS</h3><p>Estructuras semánticas, diseño responsive y accesibilidad.</p></article>
+          <article class="skill-card reveal"><span class="skill-number">05</span><h3>Git & GitHub</h3><p>Control de versiones y organización del trabajo de desarrollo.</p></article>
+          <article class="skill-card reveal"><span class="skill-number">06</span><h3>Bases de datos</h3><p>Modelado relacional, normalización y fundamentos de SQL.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="proyectos" aria-labelledby="projects-title">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">PROYECTOS</p>
+          <h2 id="projects-title">Proyectos que muestran lo que estoy aprendiendo.</h2>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card reveal">
+            <div class="project-icon" aria-hidden="true">$</div>
+            <div class="project-content"><p class="project-type">WEB APP</p><h3>Control de gastos</h3><p>Aplicación para registrar gastos, fechas y categorías, con una interfaz sencilla para consultar la información.</p><div class="tags"><span>JavaScript</span><span>LocalStorage</span><span>HTML/CSS</span></div></div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-icon" aria-hidden="true">✦</div>
+            <div class="project-content"><p class="project-type">CONCEPTO WEB</p><h3>Viajes planetarios</h3><p>Proyecto conceptual inspirado en una plataforma de transporte, adaptada para programar viajes entre planetas.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section alt" id="contacto" aria-labelledby="contact-title">
+      <div class="container contact-box reveal">
+        <div><p class="eyebrow">CONTACTO</p><h2 id="contact-title">¿Tienes un proyecto o una oportunidad?</h2><p>Estoy interesado en seguir aprendiendo, aportar mis conocimientos y crecer dentro de un equipo.</p></div>
+        <a class="button primary" href="mailto:fabianstevenvas@gmail.com">Enviar mensaje</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner"><span>© <span id="year"></span> Fabian Vasquez</span><span>Desarrollo de Software · Backend</span></div>
+  </footer>
+</body>
+</html>
