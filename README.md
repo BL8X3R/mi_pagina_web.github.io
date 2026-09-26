@@ -32,4 +32,4 @@ La página prioriza una navegación sencilla, buen contraste visual, jerarquía 
 - `index.html` — estructura y contenido de la página.
 - `css/styles.css` — estilos, diseño responsive y animaciones.
 - `js/script.js` — menú móvil, navegación y efectos de aparición.
-- `assets/fabian-profile.webp` — fotografía de perfil optimizada.
+- `assets/fabian-profile.webp` — fotografía de perfil optimizada. 
